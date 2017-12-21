@@ -22,6 +22,10 @@ var buttonClickCount = 0
             myLabel.text = "You clicked the button mother fucker!"
             view.backgroundColor = UIColor.green
         }
+        if buttonClickCount >= 8 {
+            myLabel.text = "Stop clicking the button mother fucker!"
+            view.backgroundColor = UIColor.green
+        }
         
     }
     
